@@ -36,7 +36,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 10.0
+"speed": 6.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p6qlh"]
@@ -52,7 +52,7 @@ position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_r6jsd")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.21810159
+frame_progress = 0.9804962
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1423269501]
 position = Vector2(0, -6)
