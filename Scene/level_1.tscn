@@ -260,5 +260,13 @@ position = Vector2(-57, -13)
 [node name="Coin2" parent="coins" unique_id=1950916844 instance=ExtResource("7_ws63c")]
 position = Vector2(30, -13)
 
+[node name="Label" type="Label" parent="." unique_id=1712879934]
+offset_left = -145.0
+offset_top = -35.0
+offset_right = -105.0
+offset_bottom = -12.0
+theme_override_font_sizes/font_size = 10
+text = "Press R"
+
 [connection signal="body_entered" from="KillBox" to="Player" method="_on_kill_box_body_entered"]
 [connection signal="body_entered" from="End" to="End" method="_on_body_entered"]
