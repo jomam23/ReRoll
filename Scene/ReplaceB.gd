@@ -7,7 +7,6 @@ func _ready():
 
 func _input(event):
 	if event is InputEventKey and event.pressed and event.keycode == KEY_R:
-		
 		enabled = !enabled
 		
 		visible = enabled
